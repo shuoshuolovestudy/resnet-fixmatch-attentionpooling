@@ -1,0 +1,31 @@
+# 模型权重：每个约 44MB，10 个共 430MB，不进仓库
+results/models/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# 数据集：本地路径列表，与训练机强绑定，无需入库
+data/
+
+# 用户上传的临时图片
+static/uploads/
+
+# 运行时产物
+storage/
+instance/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
